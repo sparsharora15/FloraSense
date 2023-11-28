@@ -1,0 +1,201 @@
+{
+    "access_token": "L1UL1kMYdorZfO8",
+    "model_version": "plant_id:3.4.1",
+    "custom_id": null,
+    "input": {
+        "latitude": null,
+        "longitude": null,
+        "health": "only",
+        "images": [
+            "https://plant.id/media/imgs/4a5c8fb55be44878b554b047e42cdd06.jpg"
+        ],
+        "datetime": "2023-11-25T05:16:07.986211+00:00"
+    },
+    "result": {
+        "is_plant": { "probability": 0.99999857, "binary": true, "threshold": 0.5 },
+        "is_healthy": {
+            "probability": 0.24269145727157593,
+            "binary": false,
+            "threshold": 0.525
+        },
+        "disease": {
+            "suggestions": [{
+                    "id": "e5eed7f688efa59e",
+                    "name": "water excess or uneven watering",
+                    "probability": 0.3440458,
+                    "details": {
+                        "local_name": "water excess or uneven watering",
+                        "description": "Water excess and uneven watering are abiotic disorders caused by inadequate watering. Water excess may lead to rotting of the roots due to lack of oxygen, and higher susceptibility to infection. Symptoms of over-watering include stunted growth, yellow and brown leaves, wilting and higher susceptibility to leaf burn.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/overwatering.aspx",
+                        "treatment": {
+                            "biological": [
+                                "Remove and discard moldy soil or replant the plant into fresh soil.",
+                                "Remove your plant from the pot and inspect the roots. Prune and discard rotten roots (brown, mushy, stinky).",
+                                "Select a flower pot with the appropriate size and material.",
+                                "Temporarily move the plant to a more shady place (roots might be damaged and do not manage to supply the plant with water)."
+                            ],
+                            "prevention": [
+                                "Improve soil drainage (e.g. by adding compost to the soil or rocks to the bottom of the pot). Ensure having drainage holes at the bottom of the pot."
+                            ]
+                        },
+                        "classification": ["Abiotic", "water-related issue"],
+                        "common_names": ["overwatering"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "e5eed7f688efa59e"
+                    }
+                },
+                {
+                    "id": "af7b78782de52bd8",
+                    "name": "senescence",
+                    "probability": 0.25225002,
+                    "details": {
+                        "local_name": "senescence",
+                        "description": "Senescence is a process of aging that can occur due to physiological aging or environmental stress.",
+                        "url": "https://en.wikipedia.org/wiki/Plant_senescence",
+                        "treatment": {
+                            "biological": ["Remove dead parts of the plant."],
+                            "prevention": [
+                                "Prevent plant stress by optimal watering, fertilizing and protection from sun and frost."
+                            ]
+                        },
+                        "classification": [],
+                        "common_names": ["aging"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "af7b78782de52bd8"
+                    }
+                },
+                {
+                    "id": "53aac959aba8302b",
+                    "name": "mechanical damage",
+                    "probability": 0.23036817,
+                    "details": {
+                        "local_name": "mechanical damage",
+                        "description": "Mechanical damage occurs when parts of the plant are disrupted by physical action, usually by tools or inappropriate handling. The wound can be an entry point for infectious disease or it can disrupt the water and nutrient transport.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/mechanical.aspx",
+                        "treatment": {
+                            "biological": [
+                                "If possible remove the damaged parts of the plant. The injury can become an entry point for infectious disease.",
+                                "For trees: if the bark is damaged, make the edges of the wound clean and leave it exposed to air to dry out."
+                            ],
+                            "prevention": [
+                                "For trees: create protection zones around the tree (e.g. by building a small fence) to avoid injuries to the trunk and roots by gardening equipment. Avoid using heavy equipment around trees."
+                            ]
+                        },
+                        "classification": ["Abiotic"],
+                        "common_names": ["mechanical injury"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "53aac959aba8302b"
+                    }
+                },
+                {
+                    "id": "c6fbc333b227bd54",
+                    "name": "water deficiency",
+                    "probability": 0.10892157,
+                    "details": {
+                        "local_name": "water deficiency",
+                        "description": "Water deficiency is similar in its symptoms to over-watering and it is important to identify the cause. Symptoms include slow growth, wilting, discolored leaves and flowers, burning on edges of leaves. The affected plant can also suffer from disrupted nutrient uptake.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/drought.aspx",
+                        "treatment": {
+                            "chemical": [
+                                "You may apply hydrogel for plants to the soil to increase water retention capacity."
+                            ],
+                            "biological": [
+                                "For potted plants: if the soil is really dry, you may immerse the whole pot in water and wait until the soil absorbs the water.",
+                                "Replant the plant into a bigger pot, which has a higher retention capacity.",
+                                "Temporarily move the plant to a more shady place (roots might be damaged and do not manage to supply the plant with water)."
+                            ],
+                            "prevention": [
+                                "Mulch plants with a layer of organic mulch to reduce soil evaporation."
+                            ]
+                        },
+                        "classification": ["Abiotic", "water-related issue"],
+                        "common_names": ["drought"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "c6fbc333b227bd54"
+                    }
+                },
+                {
+                    "id": "765b06482c4e4ae9",
+                    "name": "nutrient deficiency",
+                    "probability": 0.081909604,
+                    "details": {
+                        "local_name": "nutrient deficiency",
+                        "description": "Nutrient deficiency is caused by a lack of macronutrients or micronutrients essential for the plant. This can be caused by insufficient amounts of nutrients in the soil or unsuitable conditions for nutrients uptake.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/nutrients.aspx",
+                        "treatment": {
+                            "chemical": [
+                                "Apply missing nutrients to the plant foliage (suitable for quick help). Follow the instructions on the chosen product to prevent excessive fertilizer usage.",
+                                "Apply missing nutrients to the soil (suitable for long-term help). Follow the instructions on the chosen product to prevent excessive fertilizer usage."
+                            ],
+                            "biological": [
+                                "Replant the plant into fresh soil rich in nutrients.",
+                                "Add manure or compost to the soil."
+                            ],
+                            "prevention": [
+                                "Apply fertilizer regularly. Fertilizing is especially important during spring and summer.",
+                                "Change the soil regularly. Plants should be repotted when the soil is compacted, depleted of nutrients, and no longer retains water.",
+                                "Choose suitable neighboring plants. Plants with similar nutrient requirements should not be planted close to each other."
+                            ]
+                        },
+                        "classification": ["Abiotic", "nutrient-related issue"],
+                        "common_names": null,
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "765b06482c4e4ae9"
+                    }
+                },
+                {
+                    "id": "5b5b0081922d3c45",
+                    "name": "finished flowering period",
+                    "probability": 0.057227228,
+                    "details": {
+                        "local_name": "finished flowering period",
+                        "description": "The finished flowering period is part of the physiological process when the flowers die at the end of the flowering period. If fertilized, flowers develop into fruits.",
+                        "url": null,
+                        "treatment": {
+                            "prevention": [
+                                "Regularly remove flowers that have finished flowering. This will encourage the growth of new flowers.",
+                                "Supply the plant with a fertilizer high in phosphorus, which is good for flowers. Follow the instructions on the chosen product to prevent excessive fertilizer usage."
+                            ]
+                        },
+                        "classification": ["Senescence", "Natural senescence"],
+                        "common_names": null,
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "5b5b0081922d3c45"
+                    }
+                },
+                {
+                    "id": "9218257b5a5f1180",
+                    "name": "lack of light",
+                    "probability": 0.05005998,
+                    "details": {
+                        "local_name": "lack of light",
+                        "description": "Lack of light may lead to a leggy and weak appearance of the plant. Such plants often grow long internodes with smaller leaves, have stunted growth or the leaves become yellow.",
+                        "url": "https://extension.umn.edu/planting-and-growing-guides/lighting-indoor-plants",
+                        "treatment": {
+                            "biological": [
+                                "Use grow light to increase lightning.",
+                                "Increase the spacing between plants."
+                            ]
+                        },
+                        "classification": ["Abiotic", "light-related issue"],
+                        "common_names": ["light deficiency"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "9218257b5a5f1180"
+                    }
+                }
+            ]
+        }
+    },
+    "status": "COMPLETED",
+    "sla_compliant_client": true,
+    "sla_compliant_system": true,
+    "created": 1700889367.986211,
+    "completed": 1700889368.787099
+}

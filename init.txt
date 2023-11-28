@@ -1,0 +1,2 @@
+npm run dev #init css
+python.exe .\main.py #init project

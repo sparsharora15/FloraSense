@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+        * {
+            font-family: 'Baloo 2', sans-serif;
+            user-select: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body style="background-image:url('../static/bg.jpg');">
+    <nav id='logo' class="navbar h-[8vh] my-5 md:my-8 flex justify-center items-center">
+        <img class="rounded-lg h-full  drop-shadow-3xl-g" src="../static/logo-new.png" alt=""> 
+     </nav>
+
+    <div class="main  flex flex-col  justify-center items-center">
+
+        <div class="w-[80vw] h-[70vh] my-1  md:border-4 max-w-7xl border-[#383b44] flex flex-col md:flex-row justify-evenly md:items-center">
+            {% block main %}{% endblock main %}
+        </div>
+
+        <footer class="h-[10vh] flex justify-center font-semibold  items-center ">
+            <a href='/about' class="space-x-1 ">
+                <span class="text-white underline underline-offset-4">About</span>
+                <span class="text-[#01c496]  underline underline-offset-4">us</span>
+            </a>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the button element
+            const homeButton = document.getElementById('logo');
+
+            // Add a click event listener
+            homeButton.addEventListener('click', function() {
+                // Navigate to the home route using JavaScript
+                window.location.href = "/"
+            });
+        });
+    </script>
+</body>
+
+</html>

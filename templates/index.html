@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block main %}
+
+{% if notify %}
+
+<div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+    <span class="font-medium">No plant detected!</span>
+</div>
+{% endif %}
+
+
+
+<div class="w-[80vw] h-[70vh] my-1  md:border-4 max-w-7xl border-[#383b44] flex flex-col md:flex-row  justify-evenly md:items-center">
+    <form id="plant-bg" enctype="multipart/form-data" action='/identify-plant' method='POST' class="box-1 p-1 md:w-2/5 h-2/5 bg-cover bg-no-repeat bg-center flex flex-col justify-around items-center border-4 border-dashed border-[#383b44] rounded-xl">
+        <h1 class=" text-white font-semibold text-xl">Plant Species Detection </h1>
+        <label for="plant" class="text-center w-full cursor-pointer text-white">
+                <input  name="id_plant" class="hidden" accept="image/*" type="file" id="plant">
+                Drag and Drop <br> or <br> Browse Pictures
+            </label>
+        <button class="bg-[#01c496] text-white font-semibold w-4/5 rounded-md py-1">Submit</button>
+    </form>
+    <form id="disease-bg" enctype="multipart/form-data" action='/identify-disease' method='POST' class="box-1 p-1 md:w-2/5 h-2/5 bg-cover bg-no-repeat bg-center flex flex-col justify-around items-center border-4 border-dashed border-[#383b44] rounded-xl">
+        <h1 class="text-white font-semibold text-xl">Plant Disease Image</h1>
+        <label for="disease" class="text-center cursor-pointer w-full  text-white">
+                <input required name="id_disease" class="hidden" accept="image/*" type="file" id="disease">
+                Drag and Drop <br> or <br> Browse Pictures
+            </label>
+        <button class="bg-[#01c496] text-white font-semibold w-4/5 rounded-md py-1">Submit</button>
+    </form>
+</div>
+
+{% endblock main %}
