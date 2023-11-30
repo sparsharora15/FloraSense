@@ -22,14 +22,14 @@ def identify_plant():
                 files = {'images': (image_file.filename, image_file.read())}
                 params = {'details':'common_names,url,description,image,edible_parts,watering,propagation_methods'}
 
-                response = requests.post(api_url, headers=headers, files=files, params=params)
-                response.raise_for_status()
+                # response = requests.post(api_url, headers=headers, files=files, params=params)
+                # response.raise_for_status()
 
                 # Process the API response
-                result = response.json()
-                # result =  json.load(open('response.json', 'r'))
-                with open('plant_response.json', 'w+')as file:
-                    json.dump(result, file)
+                # result = response.json()
+                result =  json.load(open('response.json', 'r'))
+                # with open('plant_response.json', 'w+')as file:
+                #     json.dump(result, file)
                 
                 plant = result['result']['is_plant']['binary']
                 
@@ -175,5 +175,5 @@ def about():
 
 
 
-
-app.run(host='0.0.0.0', port=5000, debug=True)
+if __name__=='__main__':
+    app.run(host='0.0.0.0', debug=False)

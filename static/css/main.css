@@ -819,6 +819,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:top-\[200px\] {
+    top: 200px;
+  }
+
+  .md\:left-0 {
+    left: 0px;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
