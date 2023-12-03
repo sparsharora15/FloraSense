@@ -1,1 +1,201 @@
-{"access_token": "vNhjc1RmckRp32k", "model_version": "plant_id:3.4.1", "custom_id": null, "input": {"latitude": null, "longitude": null, "health": "only", "images": ["https://plant.id/media/imgs/9ea79ded31b144cd96fa1bc012923eb0.jpg"], "datetime": "2023-11-30T18:46:56.326526+00:00"}, "result": {"is_plant": {"probability": 0.009404657, "binary": false, "threshold": 0.5}, "is_healthy": {"probability": 0.951299861073494, "binary": true, "threshold": 0.525}, "disease": {"suggestions": [{"id": "7f22438065988f95", "name": "Fungi", "probability": 0.06110979, "redundant": true, "details": {"local_name": "Fungi", "description": "Fungi take energy from the plants on which they live, causing damage to the plant. Fungal infections are responsible for approximately two-thirds of infectious plant diseases and cause wilting, molding, rusts, scabs, rotted tissue, and other problems.", "url": "https://en.wikipedia.org/wiki/Fungus", "treatment": {"chemical": ["If necessary, apply a fungicide. If you don' know the fungus species, choose fungicide based on the infected plant (e.g. house plant, garden plant, tree)."], "biological": ["If possible remove and destroy the infected parts of the plant. Burn it, toss it into the garbage, or bury it deeply. Do not compost.", "Apply ecological products for plant protection (e.g. neem oil, baking soda, soap)."], "prevention": ["Use resistant species and cultivars as well as healthy, certified seeds and seedlings.", "Ensure having good soil drainage to avoid overwatering.", "Improve the air circulation around the plant (e.g. by pruning excess foliage or increasing the spacing between plants).", "Avoid prolonged wetting of the leaves, which can be caused e.g. by overhead irrigation.", "Rotate crops. Avoid planting sensitive crops in infested soil.", "Disinfect tools, infected flower pots, and hands to avoid disease transmission."]}, "classification": [], "common_names": null, "cause": null, "language": "en", "entity_id": "7f22438065988f95"}}, {"id": "d24ebab7c0155e4b", "name": "Animalia", "probability": 0.045288414, "details": {"local_name": "Animalia", "description": "Disorders induced by organisms from the animal kingdom. These pests cause direct damage by feeding on leaves, stems, roots, and other parts of the plant or by inhabiting plant tissues. Pests can also spread bacterial and viral diseases.", "url": "https://en.wikipedia.org/wiki/Animal", "treatment": {"chemical": ["If necessary, apply insecticide, or acaricide."], "biological": ["Remove pests mechanically. Rub the pests off, or remove infested parts or use a strong stream of water to remove the insect.", "Apply ecological products for plant protection (e.g. sticky cards, essential oils, horticultural oil).", "Introduce natural enemies - predators, parasites, or diseases (e.g. lady beetles, lacewings, parasitic wasps).", "Isolate the infested plant immediately to avoid the infestation from spreading."], "prevention": ["Encourage the presence of natural enemies (e.g. lady beetles, lacewings, parasitic wasps).", "Apply dormant oil (controls pests and diseases during the off-season).", "Inspect new plants for signs of an infestation. Inspect the underside of leaves and stem joints."]}, "classification": [], "common_names": ["pests"], "cause": null, "language": "en", "entity_id": "d24ebab7c0155e4b"}}, {"id": "765b06482c4e4ae9", "name": "nutrient deficiency", "probability": 0.044274755, "details": {"local_name": "nutrient deficiency", "description": "Nutrient deficiency is caused by a lack of macronutrients or micronutrients essential for the plant. This can be caused by insufficient amounts of nutrients in the soil or unsuitable conditions for nutrients uptake.", "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/nutrients.aspx", "treatment": {"chemical": ["Apply missing nutrients to the plant foliage (suitable for quick help). Follow the instructions on the chosen product to prevent excessive fertilizer usage.", "Apply missing nutrients to the soil (suitable for long-term help). Follow the instructions on the chosen product to prevent excessive fertilizer usage."], "biological": ["Replant the plant into fresh soil rich in nutrients.", "Add manure or compost to the soil."], "prevention": ["Apply fertilizer regularly. Fertilizing is especially important during spring and summer.", "Change the soil regularly. Plants should be repotted when the soil is compacted, depleted of nutrients, and no longer retains water.", "Choose suitable neighboring plants. Plants with similar nutrient requirements should not be planted close to each other."]}, "classification": ["Abiotic", "nutrient-related issue"], "common_names": null, "cause": null, "language": "en", "entity_id": "765b06482c4e4ae9"}}, {"id": "7938fe32fdf79a01", "name": "herbicide damage", "probability": 0.016764287, "details": {"local_name": "herbicide damage", "description": "Herbicide damage is caused by chemical herbicides such as glyphosate, 2,4-D, and others. General symptoms include twisted or discolored leaves, cupped foliage, stunted growth or leaves with dead spots.", "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/herbicide.aspx", "treatment": {"chemical": ["Apply suitable fertilizer for better plant recovery. Follow the instructions on the chosen product to prevent excessive fertilizer usage."], "biological": ["After exposure to a herbicide that is not soil active: wash the affected plants thoroughly with water. Treatment must be done as soon as possible after exposure.", "After exposure to soil active herbicide: use activated charcoal, which can de-activate most of the soil-active herbicide. Treatment must be done as soon as possible after exposure.", "If possible, remove affected parts of the plant as soon as possible to prevent the herbicide from spreading deeper into the plant."]}, "classification": ["Abiotic", "pesticide damage"], "common_names": null, "cause": null, "language": "en", "entity_id": "7938fe32fdf79a01"}}]}}, "status": "COMPLETED", "sla_compliant_client": true, "sla_compliant_system": true, "created": 1701370016.326526, "completed": 1701370017.135133}
+{
+    "access_token": "L1UL1kMYdorZfO8",
+    "model_version": "plant_id:3.4.1",
+    "custom_id": null,
+    "input": {
+        "latitude": null,
+        "longitude": null,
+        "health": "only",
+        "images": [
+            "https://plant.id/media/imgs/4a5c8fb55be44878b554b047e42cdd06.jpg"
+        ],
+        "datetime": "2023-11-25T05:16:07.986211+00:00"
+    },
+    "result": {
+        "is_plant": { "probability": 0.99999857, "binary": true, "threshold": 0.5 },
+        "is_healthy": {
+            "probability": 0.24269145727157593,
+            "binary": false,
+            "threshold": 0.525
+        },
+        "disease": {
+            "suggestions": [{
+                    "id": "e5eed7f688efa59e",
+                    "name": "water excess or uneven watering",
+                    "probability": 0.3440458,
+                    "details": {
+                        "local_name": "water excess or uneven watering",
+                        "description": "Water excess and uneven watering are abiotic disorders caused by inadequate watering. Water excess may lead to rotting of the roots due to lack of oxygen, and higher susceptibility to infection. Symptoms of over-watering include stunted growth, yellow and brown leaves, wilting and higher susceptibility to leaf burn.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/overwatering.aspx",
+                        "treatment": {
+                            "biological": [
+                                "Remove and discard moldy soil or replant the plant into fresh soil.",
+                                "Remove your plant from the pot and inspect the roots. Prune and discard rotten roots (brown, mushy, stinky).",
+                                "Select a flower pot with the appropriate size and material.",
+                                "Temporarily move the plant to a more shady place (roots might be damaged and do not manage to supply the plant with water)."
+                            ],
+                            "prevention": [
+                                "Improve soil drainage (e.g. by adding compost to the soil or rocks to the bottom of the pot). Ensure having drainage holes at the bottom of the pot."
+                            ]
+                        },
+                        "classification": ["Abiotic", "water-related issue"],
+                        "common_names": ["overwatering"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "e5eed7f688efa59e"
+                    }
+                },
+                {
+                    "id": "af7b78782de52bd8",
+                    "name": "senescence",
+                    "probability": 0.25225002,
+                    "details": {
+                        "local_name": "senescence",
+                        "description": "Senescence is a process of aging that can occur due to physiological aging or environmental stress.",
+                        "url": "https://en.wikipedia.org/wiki/Plant_senescence",
+                        "treatment": {
+                            "biological": ["Remove dead parts of the plant."],
+                            "prevention": [
+                                "Prevent plant stress by optimal watering, fertilizing and protection from sun and frost."
+                            ]
+                        },
+                        "classification": [],
+                        "common_names": ["aging"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "af7b78782de52bd8"
+                    }
+                },
+                {
+                    "id": "53aac959aba8302b",
+                    "name": "mechanical damage",
+                    "probability": 0.23036817,
+                    "details": {
+                        "local_name": "mechanical damage",
+                        "description": "Mechanical damage occurs when parts of the plant are disrupted by physical action, usually by tools or inappropriate handling. The wound can be an entry point for infectious disease or it can disrupt the water and nutrient transport.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/mechanical.aspx",
+                        "treatment": {
+                            "biological": [
+                                "If possible remove the damaged parts of the plant. The injury can become an entry point for infectious disease.",
+                                "For trees: if the bark is damaged, make the edges of the wound clean and leave it exposed to air to dry out."
+                            ],
+                            "prevention": [
+                                "For trees: create protection zones around the tree (e.g. by building a small fence) to avoid injuries to the trunk and roots by gardening equipment. Avoid using heavy equipment around trees."
+                            ]
+                        },
+                        "classification": ["Abiotic"],
+                        "common_names": ["mechanical injury"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "53aac959aba8302b"
+                    }
+                },
+                {
+                    "id": "c6fbc333b227bd54",
+                    "name": "water deficiency",
+                    "probability": 0.10892157,
+                    "details": {
+                        "local_name": "water deficiency",
+                        "description": "Water deficiency is similar in its symptoms to over-watering and it is important to identify the cause. Symptoms include slow growth, wilting, discolored leaves and flowers, burning on edges of leaves. The affected plant can also suffer from disrupted nutrient uptake.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/drought.aspx",
+                        "treatment": {
+                            "chemical": [
+                                "You may apply hydrogel for plants to the soil to increase water retention capacity."
+                            ],
+                            "biological": [
+                                "For potted plants: if the soil is really dry, you may immerse the whole pot in water and wait until the soil absorbs the water.",
+                                "Replant the plant into a bigger pot, which has a higher retention capacity.",
+                                "Temporarily move the plant to a more shady place (roots might be damaged and do not manage to supply the plant with water)."
+                            ],
+                            "prevention": [
+                                "Mulch plants with a layer of organic mulch to reduce soil evaporation."
+                            ]
+                        },
+                        "classification": ["Abiotic", "water-related issue"],
+                        "common_names": ["drought"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "c6fbc333b227bd54"
+                    }
+                },
+                {
+                    "id": "765b06482c4e4ae9",
+                    "name": "nutrient deficiency",
+                    "probability": 0.081909604,
+                    "details": {
+                        "local_name": "nutrient deficiency",
+                        "description": "Nutrient deficiency is caused by a lack of macronutrients or micronutrients essential for the plant. This can be caused by insufficient amounts of nutrients in the soil or unsuitable conditions for nutrients uptake.",
+                        "url": "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/environmental/nutrients.aspx",
+                        "treatment": {
+                            "chemical": [
+                                "Apply missing nutrients to the plant foliage (suitable for quick help). Follow the instructions on the chosen product to prevent excessive fertilizer usage.",
+                                "Apply missing nutrients to the soil (suitable for long-term help). Follow the instructions on the chosen product to prevent excessive fertilizer usage."
+                            ],
+                            "biological": [
+                                "Replant the plant into fresh soil rich in nutrients.",
+                                "Add manure or compost to the soil."
+                            ],
+                            "prevention": [
+                                "Apply fertilizer regularly. Fertilizing is especially important during spring and summer.",
+                                "Change the soil regularly. Plants should be repotted when the soil is compacted, depleted of nutrients, and no longer retains water.",
+                                "Choose suitable neighboring plants. Plants with similar nutrient requirements should not be planted close to each other."
+                            ]
+                        },
+                        "classification": ["Abiotic", "nutrient-related issue"],
+                        "common_names": null,
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "765b06482c4e4ae9"
+                    }
+                },
+                {
+                    "id": "5b5b0081922d3c45",
+                    "name": "finished flowering period",
+                    "probability": 0.057227228,
+                    "details": {
+                        "local_name": "finished flowering period",
+                        "description": "The finished flowering period is part of the physiological process when the flowers die at the end of the flowering period. If fertilized, flowers develop into fruits.",
+                        "url": null,
+                        "treatment": {
+                            "prevention": [
+                                "Regularly remove flowers that have finished flowering. This will encourage the growth of new flowers.",
+                                "Supply the plant with a fertilizer high in phosphorus, which is good for flowers. Follow the instructions on the chosen product to prevent excessive fertilizer usage."
+                            ]
+                        },
+                        "classification": ["Senescence", "Natural senescence"],
+                        "common_names": null,
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "5b5b0081922d3c45"
+                    }
+                },
+                {
+                    "id": "9218257b5a5f1180",
+                    "name": "lack of light",
+                    "probability": 0.05005998,
+                    "details": {
+                        "local_name": "lack of light",
+                        "description": "Lack of light may lead to a leggy and weak appearance of the plant. Such plants often grow long internodes with smaller leaves, have stunted growth or the leaves become yellow.",
+                        "url": "https://extension.umn.edu/planting-and-growing-guides/lighting-indoor-plants",
+                        "treatment": {
+                            "biological": [
+                                "Use grow light to increase lightning.",
+                                "Increase the spacing between plants."
+                            ]
+                        },
+                        "classification": ["Abiotic", "light-related issue"],
+                        "common_names": ["light deficiency"],
+                        "cause": null,
+                        "language": "en",
+                        "entity_id": "9218257b5a5f1180"
+                    }
+                }
+            ]
+        }
+    },
+    "status": "COMPLETED",
+    "sla_compliant_client": true,
+    "sla_compliant_system": true,
+    "created": 1700889367.986211,
+    "completed": 1700889368.787099
+}
