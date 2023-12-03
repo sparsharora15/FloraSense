@@ -3,6 +3,7 @@ import requests
 import json
 app = Flask(__name__)
 
+production = False
 
 
 @app.route('/identify-plant', methods=['POST'])
@@ -22,12 +23,14 @@ def identify_plant():
                 files = {'images': (image_file.filename, image_file.read())}
                 params = {'details':'common_names,url,description,image,edible_parts,watering,propagation_methods'}
 
-                # response = requests.post(api_url, headers=headers, files=files, params=params)
-                # response.raise_for_status()
+                if production:
+                    response = requests.post(api_url, headers=headers, files=files, params=params)
+                    response.raise_for_status()
+                    result = response.json()
 
-                # Process the API response
-                # result = response.json()
-                result =  json.load(open('response.json', 'r'))
+                else:
+                    result =  json.load(open('plant_response.json', 'r'))
+                    
                 # with open('plant_response.json', 'w+')as file:
                 #     json.dump(result, file)
                 
@@ -76,14 +79,14 @@ def identify_disease():
                 files = {'images': (image_file.filename, image_file.read())}
                 params = {'details':'local_name,description,url,treatment,classification,common_names,cause'}
 
-                response = requests.post(api_url, headers=headers, files=files, params=params)
-                response.raise_for_status()
+                if production:
+                    response = requests.post(api_url, headers=headers, files=files, params=params)
+                    response.raise_for_status()
+                    result = response.json()
 
-                # Process the API response
-                result = response.json()
-                with open('disease_response.json', 'w+')as file:
-                    json.dump(result, file)
-                # result =  json.load(open('response.json', 'r'))
+                else:
+                    result =  json.load(open('disease_response.json', 'r'))
+
 
                 plant = result['result']['is_plant']['binary']
                 

@@ -1,1 +1,256 @@
-{"access_token": "mPMtvgFKjZEFfKJ", "model_version": "plant_id:3.4.1", "custom_id": null, "input": {"latitude": null, "longitude": null, "images": ["https://plant.id/media/imgs/af5e77bf5ea143bf8dfa92df7839c60c.jpg"], "datetime": "2023-11-30T18:43:31.564969+00:00"}, "result": {"is_plant": {"probability": 0.009404665, "binary": false, "threshold": 0.5}, "classification": {"suggestions": [{"id": "528aa542ad1ff3fd", "name": "Oryza sativa", "probability": 0.5319355, "details": {"common_names": ["rice", "Asian Rice"], "url": "https://en.wikipedia.org/wiki/Oryza_sativa", "description": {"value": "Oryza sativa, commonly known as rice, is the plant species most commonly referred to in English as rice. It is the type of farmed rice whose cultivars are most common globally, and was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago.Oryza sativa belongs to the genus Oryza of the grass family Poaceae. With a genome consisting of 430 Mbp across 12 chromosomes, it is renowned for being easy to genetically modify and is a model organism for the botany of cereals.", "citation": "https://en.wikipedia.org/wiki/Oryza_sativa", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/7bc/7bc0e7c3a5497ca4de1da4f0deb873eba4790c13.jpg", "citation": null, "license_name": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"}, "edible_parts": ["oil", "seeds", "oil"], "watering": {"max": 3, "min": 2}, "propagation_methods": ["seeds"], "language": "en", "entity_id": "528aa542ad1ff3fd"}}, {"id": "625fa228ef4d108b", "name": "Euphorbia", "probability": 0.16797327, "details": {"common_names": ["spurge"], "url": "https://en.wikipedia.org/wiki/Euphorbia", "description": {"value": "Euphorbia is a very large and diverse genus of flowering plants, commonly called spurge, in the family Euphorbiaceae. \"Euphorbia\" is sometimes used in ordinary English to collectively refer to all members of Euphorbiaceae (in deference to the type genus), not just to members of the genus.Euphorbias range from tiny annual plants to large and long-lived trees. with perhaps the tallest being Euphorbia ampliphylla at 98 feet (thirty meters) or more.  The genus has roughly 2,000 members, making it one of the largest genera of flowering plants. It also has one of the largest ranges of chromosome counts, along with Rumex and Senecio. Euphorbia antiquorum is the type species for the genus Euphorbia. It was first described by Carl Linnaeus in 1753 in Species Plantarum.\nSome euphorbias are widely available commercially, such as poinsettias at Christmas. Some are commonly cultivated as ornamentals, or collected and highly valued for the aesthetic appearance of their unique floral structures, such as the crown of thorns plant (Euphorbia milii). Succulent euphorbias from the deserts of Southern Africa and Madagascar have evolved physical characteristics and forms similar to cacti of North and South America, so they are often incorrectly referred to as cacti. Some are used as ornamentals in landscaping, because of beautiful or striking overall forms, and drought and heat tolerance.Euphorbia all share the feature of having a poisonous, latex-like sap and unique floral structures. When viewed as a whole, the head of flowers looks like a single flower (a pseudanthium). It has a unique kind of pseudanthium, called a cyathium, where each flower in the head is reduced to its barest essential part needed for sexual reproduction. The individual flowers are either male or female, with the male flowers reduced to only the stamen, and the females to the pistil. These flowers have no sepals, petals, or other parts that are typical of flowers in other kinds of plants. Structures supporting the flower head and other structures underneath have evolved to attract pollinators with nectar, and with shapes and colors that function in a way petals and other flower parts do in other flowers. It is the only genus of plants that has all three kinds of photosynthesis, CAM, C3 and C4.", "citation": "https://en.wikipedia.org/wiki/Euphorbia", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/0ee/0ee51fa2dd61c1f27f2b9ad11f985b0cfe3e2fba.jpg", "citation": "//commons.wikimedia.org/wiki/User:Alvesgaspar", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "edible_parts": null, "watering": {"max": 2, "min": 1}, "propagation_methods": null, "language": "en", "entity_id": "625fa228ef4d108b"}}, {"id": "e2cf57698e5926f4", "name": "Azorella", "probability": 0.072255895, "details": {"common_names": null, "url": "https://en.wikipedia.org/wiki/Azorella", "description": {"value": "Azorella is a genus of flowering plants in the family Apiaceae, native to South America, New Zealand, southeastern Australia, and the islands of the Southern Ocean.They are low-growing dwarf mat-forming plants growing in high exposure on mountains and subantarctic coasts; with great age they may form rounded mounds of foliage up to 1 m high but are usually less than 10 cm high. Several species are grown as ornamental plants in rock gardens.", "citation": "https://en.wikipedia.org/wiki/Azorella", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/7e9/7e95b164ffec5ff94f7c6ac5eb706d4f002262dc.jpg", "citation": "//commons.wikimedia.org/wiki/User:Heretiq", "license_name": "CC BY-SA 2.5", "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"}, "edible_parts": null, "watering": null, "propagation_methods": null, "language": "en", "entity_id": "e2cf57698e5926f4"}}, {"id": "9bf25a868d43bca6", "name": "Chrysopogon zizanioides", "probability": 0.051565, "details": {"common_names": ["Vetiver"], "url": "https://en.wikipedia.org/wiki/Chrysopogon_zizanioides", "description": {"value": "Chrysopogon zizanioides, commonly known as vetiver and khus, is a perennial bunchgrass of the family Poaceae.\nVetiver is most closely related to Sorghum but shares many morphological characteristics with other fragrant grasses, such as lemongrass (Cymbopogon citratus), citronella (Cymbopogon nardus, C. winterianus), and palmarosa (Cymbopogon martinii).", "citation": "https://en.wikipedia.org/wiki/Chrysopogon_zizanioides", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/e9a/e9ae0a04d25a84e17d0a078ae508451ddbb5d4a4.jpg", "citation": null, "license_name": "CC0", "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"}, "edible_parts": ["oil", "root", "oil"], "watering": null, "propagation_methods": null, "language": "en", "entity_id": "9bf25a868d43bca6"}}, {"id": "f4a53abc2c57b851", "name": "Brassica oleracea", "probability": 0.021923462, "details": {"common_names": ["Wild Mustard", "cabbage, broccoli, and allies", "wild cabbage", "cabbage", "Romanesco broccoli", "broccoli", "cauliflower", "collard greens", "brussels sprouts", "kale", "borecole", "Chou Mollier", "Haria", "Kohlrabi", "Marrow Stem Kale", "Niko", "Puka", "Rearea", "black cabbage"], "url": "https://en.wikipedia.org/wiki/Brassica_oleracea", "description": {"value": "Brassica oleracea is a plant species from family Brassicaceae that includes many common cultivars used as vegetables, such as cabbage, broccoli, cauliflower, kale, Brussels sprouts, collard greens, Savoy cabbage, kohlrabi, and gai lan.\nIts uncultivated form, wild cabbage, native to coastal southern and western Europe, is a hardy plant with high tolerance for salt and lime. However, its intolerance of competition from other plants typically restricts its natural occurrence to limestone sea cliffs, like the chalk cliffs on both sides of the English Channel. Wild B. oleracea is a tall biennial plant that forms a stout rosette of large leaves in the first year. The leaves are fleshier and thicker than other Brassica species\u2014an adaptation that helps it store water and nutrients in its difficult growing environment. In its second year, it uses the stored nutrients to produce a flower spike 1 to 2 metres (3\u20137 ft) tall with numerous yellow flowers.\nA 2021 study suggested that the Eastern Mediterranean Brassica cretica was the origin of domesticated B. oleracea. Genetic analysis of nine wild populations on the French Atlantic coast indicated their common feral origin, deriving from domesticated plants escaped from fields and gardens.", "citation": "https://en.wikipedia.org/wiki/Brassica_oleracea", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/d95/d950c5ee8d9e074723af673de1adc29e8f618dc9.jpg", "citation": "//commons.wikimedia.org/wiki/User:MPF", "license_name": "CC BY 2.5", "license_url": "https://creativecommons.org/licenses/by/2.5/"}, "edible_parts": ["leaves"], "watering": {"max": 2, "min": 2}, "propagation_methods": ["seeds"], "language": "en", "entity_id": "f4a53abc2c57b851"}}, {"id": "26976e342980c5b8", "name": "Dracaena", "probability": 0.021306444, "details": {"common_names": ["Dragon trees"], "url": "https://en.wikipedia.org/wiki/Dracaena_(plant)", "description": {"value": "Dracaena () is a genus of about 120 species of trees and succulent shrubs.  The formerly accepted genera Pleomele and  Sansevieria are now included in Dracaena. In the APG IV classification system, it is placed in the family Asparagaceae, subfamily Nolinoideae (formerly the family Ruscaceae). It has also formerly been separated (sometimes with Cordyline) into the family Dracaenaceae or placed in the Agavaceae (now Agavoideae).\nThe name dracaena is derived from the romanized form of the Ancient Greek \u03b4\u03c1\u03ac\u03ba\u03b1\u03b9\u03bd\u03b1 \u2013 drakaina, \"female dragon\".The majority of the species are native to Africa, southern Asia through to northern Australia, with two species in tropical Central America.", "citation": "https://en.wikipedia.org/wiki/Dracaena_(plant)", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/64d/64d071834af63c6cd9465e3113de9253c7ddd605.jpg", "citation": "https://commons.wikimedia.org/wiki/File:Dracaena_draco.jpg", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "edible_parts": null, "watering": {"max": 2, "min": 1}, "propagation_methods": null, "language": "en", "entity_id": "26976e342980c5b8"}}, {"id": "535ce6a27b0e7582", "name": "Aeonium", "probability": 0.016185546, "details": {"common_names": ["tree houseleeks"], "url": "https://en.wikipedia.org/wiki/Aeonium", "description": {"value": "Aeonium, the tree houseleeks, is a genus of about 35 species of succulent, subtropical plants of the family Crassulaceae. Many species are popular in horticulture. The genus name comes from the ancient Greek \u03b1\u1f30\u03ce\u03bd\u03b9\u03bf\u03c2 / ai\u014dnios (ageless). While most of them are native to the Canary Islands, some are found in Madeira, Cape Verde, Morocco, in East Africa (Ethiopia, Somalia, Uganda, Tanzania and Kenya) and Yemen.", "citation": "https://en.wikipedia.org/wiki/Aeonium", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/c2d/c2dded18013798891d7fed643306737c05163d39.jpg", "citation": "https://commons.wikimedia.org/wiki/File:Aeonium_undulatum.JPG", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "edible_parts": null, "watering": {"max": 2, "min": 1}, "propagation_methods": null, "language": "en", "entity_id": "535ce6a27b0e7582"}}, {"id": "cdc1466c69ca118b", "name": "Syntrichia", "probability": 0.013103862, "details": {"common_names": null, "url": "https://en.wikipedia.org/wiki/Syntrichia", "description": {"value": "Syntrichia is a large, cosmopolitan genus of mosses in the family Pottiaceae. The genus name is of Greek origin for \"plus\" and \"hair\", referring to the \"twisted peristome united by a basal membrane\".As of 2020, the World Flora Online accepts 114 species in the genus Syntrichia:", "citation": "https://en.wikipedia.org/wiki/Syntrichia", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "image": {"value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/bbd/bbd0286690deb6b851ac8edb5bd4e5213f55bfe3.jpg", "citation": "http://www.kurtstueber.de/", "license_name": "CC BY-SA 3.0", "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"}, "edible_parts": null, "watering": null, "propagation_methods": null, "language": "en", "entity_id": "cdc1466c69ca118b"}}]}}, "status": "COMPLETED", "sla_compliant_client": true, "sla_compliant_system": true, "created": 1701369811.564969, "completed": 1701369812.43196}
+{
+    "access_token": "mPMtvgFKjZEFfKJ",
+    "model_version": "plant_id:3.4.1",
+    "custom_id": null,
+    "input": {
+        "latitude": null,
+        "longitude": null,
+        "images": [
+            "https://plant.id/media/imgs/af5e77bf5ea143bf8dfa92df7839c60c.jpg"
+        ],
+        "datetime": "2023-11-30T18:43:31.564969+00:00"
+    },
+    "result": {
+        "is_plant": {
+            "probability": 0.009404665,
+            "binary": false,
+            "threshold": 0.5
+        },
+        "classification": {
+            "suggestions": [{
+                    "id": "528aa542ad1ff3fd",
+                    "name": "Oryza sativa",
+                    "probability": 0.5319355,
+                    "details": {
+                        "common_names": ["rice", "Asian Rice"],
+                        "url": "https://en.wikipedia.org/wiki/Oryza_sativa",
+                        "description": {
+                            "value": "Oryza sativa, commonly known as rice, is the plant species most commonly referred to in English as rice. It is the type of farmed rice whose cultivars are most common globally, and was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago.Oryza sativa belongs to the genus Oryza of the grass family Poaceae. With a genome consisting of 430 Mbp across 12 chromosomes, it is renowned for being easy to genetically modify and is a model organism for the botany of cereals.",
+                            "citation": "https://en.wikipedia.org/wiki/Oryza_sativa",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/7bc/7bc0e7c3a5497ca4de1da4f0deb873eba4790c13.jpg",
+                            "citation": null,
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+                        },
+                        "edible_parts": ["oil", "seeds", "oil"],
+                        "watering": { "max": 3, "min": 2 },
+                        "propagation_methods": ["seeds"],
+                        "language": "en",
+                        "entity_id": "528aa542ad1ff3fd"
+                    }
+                },
+                {
+                    "id": "625fa228ef4d108b",
+                    "name": "Euphorbia",
+                    "probability": 0.16797327,
+                    "details": {
+                        "common_names": ["spurge"],
+                        "url": "https://en.wikipedia.org/wiki/Euphorbia",
+                        "description": {
+                            "value": "Euphorbia is a very large and diverse genus of flowering plants, commonly called spurge, in the family Euphorbiaceae. \"Euphorbia\" is sometimes used in ordinary English to collectively refer to all members of Euphorbiaceae (in deference to the type genus), not just to members of the genus.Euphorbias range from tiny annual plants to large and long-lived trees. with perhaps the tallest being Euphorbia ampliphylla at 98 feet (thirty meters) or more.  The genus has roughly 2,000 members, making it one of the largest genera of flowering plants. It also has one of the largest ranges of chromosome counts, along with Rumex and Senecio. Euphorbia antiquorum is the type species for the genus Euphorbia. It was first described by Carl Linnaeus in 1753 in Species Plantarum.\nSome euphorbias are widely available commercially, such as poinsettias at Christmas. Some are commonly cultivated as ornamentals, or collected and highly valued for the aesthetic appearance of their unique floral structures, such as the crown of thorns plant (Euphorbia milii). Succulent euphorbias from the deserts of Southern Africa and Madagascar have evolved physical characteristics and forms similar to cacti of North and South America, so they are often incorrectly referred to as cacti. Some are used as ornamentals in landscaping, because of beautiful or striking overall forms, and drought and heat tolerance.Euphorbia all share the feature of having a poisonous, latex-like sap and unique floral structures. When viewed as a whole, the head of flowers looks like a single flower (a pseudanthium). It has a unique kind of pseudanthium, called a cyathium, where each flower in the head is reduced to its barest essential part needed for sexual reproduction. The individual flowers are either male or female, with the male flowers reduced to only the stamen, and the females to the pistil. These flowers have no sepals, petals, or other parts that are typical of flowers in other kinds of plants. Structures supporting the flower head and other structures underneath have evolved to attract pollinators with nectar, and with shapes and colors that function in a way petals and other flower parts do in other flowers. It is the only genus of plants that has all three kinds of photosynthesis, CAM, C3 and C4.",
+                            "citation": "https://en.wikipedia.org/wiki/Euphorbia",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/0ee/0ee51fa2dd61c1f27f2b9ad11f985b0cfe3e2fba.jpg",
+                            "citation": "//commons.wikimedia.org/wiki/User:Alvesgaspar",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "edible_parts": null,
+                        "watering": { "max": 2, "min": 1 },
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "625fa228ef4d108b"
+                    }
+                },
+                {
+                    "id": "e2cf57698e5926f4",
+                    "name": "Azorella",
+                    "probability": 0.072255895,
+                    "details": {
+                        "common_names": null,
+                        "url": "https://en.wikipedia.org/wiki/Azorella",
+                        "description": {
+                            "value": "Azorella is a genus of flowering plants in the family Apiaceae, native to South America, New Zealand, southeastern Australia, and the islands of the Southern Ocean.They are low-growing dwarf mat-forming plants growing in high exposure on mountains and subantarctic coasts; with great age they may form rounded mounds of foliage up to 1 m high but are usually less than 10 cm high. Several species are grown as ornamental plants in rock gardens.",
+                            "citation": "https://en.wikipedia.org/wiki/Azorella",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/7e9/7e95b164ffec5ff94f7c6ac5eb706d4f002262dc.jpg",
+                            "citation": "//commons.wikimedia.org/wiki/User:Heretiq",
+                            "license_name": "CC BY-SA 2.5",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/2.5/"
+                        },
+                        "edible_parts": null,
+                        "watering": null,
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "e2cf57698e5926f4"
+                    }
+                },
+                {
+                    "id": "9bf25a868d43bca6",
+                    "name": "Chrysopogon zizanioides",
+                    "probability": 0.051565,
+                    "details": {
+                        "common_names": ["Vetiver"],
+                        "url": "https://en.wikipedia.org/wiki/Chrysopogon_zizanioides",
+                        "description": {
+                            "value": "Chrysopogon zizanioides, commonly known as vetiver and khus, is a perennial bunchgrass of the family Poaceae.\nVetiver is most closely related to Sorghum but shares many morphological characteristics with other fragrant grasses, such as lemongrass (Cymbopogon citratus), citronella (Cymbopogon nardus, C. winterianus), and palmarosa (Cymbopogon martinii).",
+                            "citation": "https://en.wikipedia.org/wiki/Chrysopogon_zizanioides",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/e9a/e9ae0a04d25a84e17d0a078ae508451ddbb5d4a4.jpg",
+                            "citation": null,
+                            "license_name": "CC0",
+                            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+                        },
+                        "edible_parts": ["oil", "root", "oil"],
+                        "watering": null,
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "9bf25a868d43bca6"
+                    }
+                },
+                {
+                    "id": "f4a53abc2c57b851",
+                    "name": "Brassica oleracea",
+                    "probability": 0.021923462,
+                    "details": {
+                        "common_names": [
+                            "Wild Mustard",
+                            "cabbage, broccoli, and allies",
+                            "wild cabbage",
+                            "cabbage",
+                            "Romanesco broccoli",
+                            "broccoli",
+                            "cauliflower",
+                            "collard greens",
+                            "brussels sprouts",
+                            "kale",
+                            "borecole",
+                            "Chou Mollier",
+                            "Haria",
+                            "Kohlrabi",
+                            "Marrow Stem Kale",
+                            "Niko",
+                            "Puka",
+                            "Rearea",
+                            "black cabbage"
+                        ],
+                        "url": "https://en.wikipedia.org/wiki/Brassica_oleracea",
+                        "description": {
+                            "value": "Brassica oleracea is a plant species from family Brassicaceae that includes many common cultivars used as vegetables, such as cabbage, broccoli, cauliflower, kale, Brussels sprouts, collard greens, Savoy cabbage, kohlrabi, and gai lan.\nIts uncultivated form, wild cabbage, native to coastal southern and western Europe, is a hardy plant with high tolerance for salt and lime. However, its intolerance of competition from other plants typically restricts its natural occurrence to limestone sea cliffs, like the chalk cliffs on both sides of the English Channel. Wild B. oleracea is a tall biennial plant that forms a stout rosette of large leaves in the first year. The leaves are fleshier and thicker than other Brassica species\u2014an adaptation that helps it store water and nutrients in its difficult growing environment. In its second year, it uses the stored nutrients to produce a flower spike 1 to 2 metres (3\u20137 ft) tall with numerous yellow flowers.\nA 2021 study suggested that the Eastern Mediterranean Brassica cretica was the origin of domesticated B. oleracea. Genetic analysis of nine wild populations on the French Atlantic coast indicated their common feral origin, deriving from domesticated plants escaped from fields and gardens.",
+                            "citation": "https://en.wikipedia.org/wiki/Brassica_oleracea",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/d95/d950c5ee8d9e074723af673de1adc29e8f618dc9.jpg",
+                            "citation": "//commons.wikimedia.org/wiki/User:MPF",
+                            "license_name": "CC BY 2.5",
+                            "license_url": "https://creativecommons.org/licenses/by/2.5/"
+                        },
+                        "edible_parts": ["leaves"],
+                        "watering": { "max": 2, "min": 2 },
+                        "propagation_methods": ["seeds"],
+                        "language": "en",
+                        "entity_id": "f4a53abc2c57b851"
+                    }
+                },
+                {
+                    "id": "26976e342980c5b8",
+                    "name": "Dracaena",
+                    "probability": 0.021306444,
+                    "details": {
+                        "common_names": ["Dragon trees"],
+                        "url": "https://en.wikipedia.org/wiki/Dracaena_(plant)",
+                        "description": {
+                            "value": "Dracaena () is a genus of about 120 species of trees and succulent shrubs.  The formerly accepted genera Pleomele and  Sansevieria are now included in Dracaena. In the APG IV classification system, it is placed in the family Asparagaceae, subfamily Nolinoideae (formerly the family Ruscaceae). It has also formerly been separated (sometimes with Cordyline) into the family Dracaenaceae or placed in the Agavaceae (now Agavoideae).\nThe name dracaena is derived from the romanized form of the Ancient Greek \u03b4\u03c1\u03ac\u03ba\u03b1\u03b9\u03bd\u03b1 \u2013 drakaina, \"female dragon\".The majority of the species are native to Africa, southern Asia through to northern Australia, with two species in tropical Central America.",
+                            "citation": "https://en.wikipedia.org/wiki/Dracaena_(plant)",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/64d/64d071834af63c6cd9465e3113de9253c7ddd605.jpg",
+                            "citation": "https://commons.wikimedia.org/wiki/File:Dracaena_draco.jpg",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "edible_parts": null,
+                        "watering": { "max": 2, "min": 1 },
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "26976e342980c5b8"
+                    }
+                },
+                {
+                    "id": "535ce6a27b0e7582",
+                    "name": "Aeonium",
+                    "probability": 0.016185546,
+                    "details": {
+                        "common_names": ["tree houseleeks"],
+                        "url": "https://en.wikipedia.org/wiki/Aeonium",
+                        "description": {
+                            "value": "Aeonium, the tree houseleeks, is a genus of about 35 species of succulent, subtropical plants of the family Crassulaceae. Many species are popular in horticulture. The genus name comes from the ancient Greek \u03b1\u1f30\u03ce\u03bd\u03b9\u03bf\u03c2 / ai\u014dnios (ageless). While most of them are native to the Canary Islands, some are found in Madeira, Cape Verde, Morocco, in East Africa (Ethiopia, Somalia, Uganda, Tanzania and Kenya) and Yemen.",
+                            "citation": "https://en.wikipedia.org/wiki/Aeonium",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/c2d/c2dded18013798891d7fed643306737c05163d39.jpg",
+                            "citation": "https://commons.wikimedia.org/wiki/File:Aeonium_undulatum.JPG",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "edible_parts": null,
+                        "watering": { "max": 2, "min": 1 },
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "535ce6a27b0e7582"
+                    }
+                },
+                {
+                    "id": "cdc1466c69ca118b",
+                    "name": "Syntrichia",
+                    "probability": 0.013103862,
+                    "details": {
+                        "common_names": null,
+                        "url": "https://en.wikipedia.org/wiki/Syntrichia",
+                        "description": {
+                            "value": "Syntrichia is a large, cosmopolitan genus of mosses in the family Pottiaceae. The genus name is of Greek origin for \"plus\" and \"hair\", referring to the \"twisted peristome united by a basal membrane\".As of 2020, the World Flora Online accepts 114 species in the genus Syntrichia:",
+                            "citation": "https://en.wikipedia.org/wiki/Syntrichia",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "image": {
+                            "value": "https://plant-id.ams3.cdn.digitaloceanspaces.com/knowledge_base/wikidata/bbd/bbd0286690deb6b851ac8edb5bd4e5213f55bfe3.jpg",
+                            "citation": "http://www.kurtstueber.de/",
+                            "license_name": "CC BY-SA 3.0",
+                            "license_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+                        },
+                        "edible_parts": null,
+                        "watering": null,
+                        "propagation_methods": null,
+                        "language": "en",
+                        "entity_id": "cdc1466c69ca118b"
+                    }
+                }
+            ]
+        }
+    },
+    "status": "COMPLETED",
+    "sla_compliant_client": true,
+    "sla_compliant_system": true,
+    "created": 1701369811.564969,
+    "completed": 1701369812.43196
+}
