@@ -3,7 +3,7 @@ import requests
 import json
 app = Flask(__name__)
 
-production = False
+production = True
 
 
 @app.route('/identify-plant', methods=['POST'])
