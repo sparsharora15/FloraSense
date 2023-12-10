@@ -11,7 +11,7 @@ def identify_plant():
     
     api={
         'url': 'https://plant.id/api/v3/identification',
-        'key': 'WmvjWCEP3RuDeNQDxLS9MkgXsljLtS3xvehygJa75kUzBQr2ph',
+        'key': 'iU3LUxv3ap3puG3tdHnL1008YhSJJ8xYjOM2C7v4oI5iS0rKYj',
     }
     
     if 'id_plant' in request.files:
@@ -67,7 +67,7 @@ def identify_disease():
     
     api={
         'url': 'https://plant.id/api/v3/health_assessment',
-        'key': 'WmvjWCEP3RuDeNQDxLS9MkgXsljLtS3xvehygJa75kUzBQr2ph',
+        'key': 'iU3LUxv3ap3puG3tdHnL1008YhSJJ8xYjOM2C7v4oI5iS0rKYj',
     }
     
     if 'id_disease' in request.files:
