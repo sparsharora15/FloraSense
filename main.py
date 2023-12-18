@@ -3,7 +3,7 @@ import requests
 import json
 app = Flask(__name__)
 
-production = True
+production = False
 
 
 @app.route('/identify-plant', methods=['POST'])
@@ -37,7 +37,7 @@ def identify_plant():
                 plant = result['result']['is_plant']['binary']
                 
                 if not plant:
-                    return redirect(url_for('index',notify=True))
+                    return redirect(url_for('index',notify=True,msg="PLANT NOT DETECTED!"))
                 
                 propagation = result['result']['classification']['suggestions'][0]['details']['propagation_methods']             
                 watering = result['result']['classification']['suggestions'][0]['details']['watering']                    
@@ -58,7 +58,7 @@ def identify_plant():
             except requests.exceptions.RequestException as e:
                 return redirect(url_for('result_plant', error=f"Error during API request. {e}"))
     
-    return redirect(url_for('result_plant', error=f"Image not provided.{request.files}"))
+    return redirect(url_for('index', error=f"Image not provided.{request.files}", msg="IMAGE NOT DETECTED!"))
 
 
 
@@ -168,7 +168,8 @@ def result_disease():
 @app.route('/', methods=['POST','GET'])
 def index(data=0):
     notify =  request.args.get('notify', None)
-    return render_template('index.html',notify=notify)
+    msg = request.args.get('msg',None)
+    return render_template('index.html',notify=notify, msg=msg)
 
 
 @app.route('/about')

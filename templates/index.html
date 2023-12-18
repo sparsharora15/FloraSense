@@ -3,7 +3,7 @@
 {% if notify %}
 
 <div class="md:absolute md:top-[200px]  p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
-    <span class="font-medium">No plant detected!</span>
+    <span class="font-medium">{{msg}}</span>
 </div>
 {% endif %}
 
@@ -13,7 +13,7 @@
     <form id="plant-bg" enctype="multipart/form-data" action='/identify-plant' method='POST' class="box-1 p-1 md:w-2/5 h-2/5 bg-cover bg-no-repeat bg-center flex flex-col justify-around items-center border-4 border-dashed border-[#383b44] rounded-xl">
         <h1 class=" text-white font-semibold text-xl">Plant Species Detection </h1>
         <label for="plant" class="text-center w-full cursor-pointer text-white">
-                <input  name="id_plant" class="hidden" accept="image/*" type="file" id="plant">
+                <input required name="id_plant" class="hidden" accept="image/*" type="file" id="plant">
                 Drag and Drop <br> or <br> Browse Pictures
             </label>
         <button class="bg-[#01c496] text-white font-semibold w-4/5 rounded-md py-1">Submit</button>
